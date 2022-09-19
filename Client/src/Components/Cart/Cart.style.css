@@ -1,0 +1,132 @@
+.emptyCart {
+  height: 320px;
+  width: 55%;
+  background-color: rgba(207, 255, 194, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.emptyCart img {
+  height: 150px;
+  width: 130px;
+}
+
+.emptyCartBg {
+  position: relative;
+  width: 100%;
+  height: 71vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.cartBody {
+  background-color: rgba(207, 255, 194, 0.4);
+  margin-top: 140px;
+  width: 66%;
+}
+
+.cartLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.table thead tr {
+  text-align: center;
+}
+
+.table tbody tr {
+  text-align: center;
+  align-items: center;
+}
+
+.table tfoot tr {
+  text-align: center;
+}
+.firstCol {
+  text-align: left;
+}
+
+.deleteBtn {
+  background-color: tomato;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buyBtn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.trashBtn {
+  background-color: #4caf50;
+}
+
+.trashImg {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.productButtons {
+  align-self: stretch;
+  display: flex;
+  text-align: center;
+  align-content: center;
+}
+.productSub,
+.productAdd {
+  box-shadow: none;
+  border: 0;
+  transition: opacity 180ms ease-out;
+  font-size: 16px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  text-align: center;
+}
+.productSub {
+  border-radius: 0 3px 0 0;
+  background-color: #ffc107;
+}
+.productAdd {
+  background-color: #4caf50;
+
+  color: white;
+  border-radius: 0 0 3px 0;
+}
+.productCount {
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.countInput {
+  width: 50px;
+  text-align: center;
+  margin: 0px 10px 0px 10px;
+}

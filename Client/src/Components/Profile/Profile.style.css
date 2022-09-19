@@ -1,0 +1,91 @@
+
+
+.head{
+    background-color: #e4fd0027;
+}
+.container{
+    margin-top: 100px;
+
+}
+.welcome{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 160px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: #4caf50;
+    font-size: 50px;
+    z-index: 2;
+}
+.backgroundU{
+    width: 1100px;
+    height: 800px;
+    border-radius: 30px;
+}
+.imgP{
+    margin-left: 113px;
+    margin-right: 113px;
+    width: 192px;
+    height: 192px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.infoU{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 340px;
+    margin-right: 715px;
+}
+.nameU{
+display: flex;
+justify-content: center;
+font-family: 'Reem Kufi Fun', sans-serif;
+font-size: 70px;
+color:#4caf50;
+margin-bottom: 0;
+}
+.emailU{
+    display: flex;
+justify-content: center;
+font-family: 'Reem Kufi Fun', sans-serif;
+font-size: 30px;
+color:#4caf50;
+}
+.btnP{
+    display: flex;
+    justify-content: center;
+}
+.shopNow {
+  position: absolute;  
+    top: 70%;
+    left: 54%;
+    border:none;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: #ffcd3fde;
+    text-decoration: none;
+    padding: 10px;
+    color: #225a10
+  }
+  .goCart{
+    position: absolute;  
+    top: 70%;
+    left: 37%;
+    border:none;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: #ffcd3fde;
+    text-decoration: none;
+    padding: 10px;
+    color: #225a10
+  }
+  .goCart:hover{
+        color: #182b12;
+    text-decoration: none;
+  }
+  .shopNow:hover {
+    color: #182b12;
+    text-decoration: none;
+   
+  }

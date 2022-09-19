@@ -1,0 +1,164 @@
+.classproductlist {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 3%;
+  background-color: rgba(207, 255, 194, 0.5);
+  color: rgb(5, 5, 5);
+  padding: 15px 25px;
+  border-width: 2px;
+  /* border-style: solid; */
+  /* border-color: rgb(19, 108, 26); */
+  width: 260px;
+  height: 300px;  
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.mainDivClass {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 72px;
+
+}
+
+.h1Class {
+  color: rgb(58, 39, 143);
+}
+
+.buttonclassS {
+  top: 90%;
+  left: 30%;
+  border:none;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: #ffcd3fde;
+  text-decoration: none;
+  padding: 10px;
+  color: #225a10
+}
+.buttonclassS:hover {
+  color:  #182b12;
+  text-decoration: none;
+  box-shadow:4px 4px #babaae;
+ }
+.pclassname {
+  margin-top: 5px;
+  height: 40px;
+  width: 100%;
+}
+
+.pclassprice{
+  margin-top: 5px;
+  color: rgb(26, 139, 26);
+}
+
+.borderstyle {
+  border: 2px;
+  border-color: black;
+}
+
+.imgClass{
+  object-fit: contain;
+  width: 60%;
+  height: 40%;
+}
+
+.srch {
+  width: 30px;
+  height: 30px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+}
+
+.clearbtn{
+  width: 50px;
+  height: 30px;
+  background-color: #f000;
+  color: #40a554;
+  border: none;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+form {
+  display:flex;
+  flex-direction:row;
+  padding:2px;
+  border-bottom:1px solid grey;
+}
+
+.input { 
+  width: 188px;
+  height: 35px;
+  text-align:calc(100%-20px);
+  border: none;
+  background-color: #eaf6f6;
+  align-items: center;
+  margin: 2px;
+  padding-left:13px ;
+  flex-grow:2;
+  border:none;
+  border-radius: 20px;
+}
+
+.input:focus {
+  outline: none;
+  text-decoration: none;
+
+}
+
+.filterContainer{
+  margin-left: 7%;
+}
+
+.sortContainer{
+margin-left: 3%;
+}
+
+.categoryList{
+  width: 206px;
+  appearance: none;
+  color: #126c28;
+  border: 1px solid #289f23;
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 2.5em 0.55em 0.75em;
+  border-radius: 2em;
+  background-color: #f0ffef;
+  background-image: linear-gradient(#289f23, #289f23),
+    linear-gradient(-135deg, transparent 50%, #aaffac 50%),
+    linear-gradient(-225deg, transparent 50%, #aaffac 50%),
+    linear-gradient(#aaffac 42%, #289f23 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom, right bottom;   
+}
+
+.categoryList:hover {
+  background-image: linear-gradient(#289f23, #289f23),
+    linear-gradient(-135deg, transparent 50%, #289f23 50%),
+    linear-gradient(-225deg, transparent 50%, #289f23 50%),
+    linear-gradient(#289f23 42%, #aaffac 42%);
+}
+
+.categoryList:active {
+  background-image: linear-gradient(#289f23, #289f23),
+    linear-gradient(-135deg, transparent 50%, #289f23 50%),
+    linear-gradient(-225deg, transparent 50%, #289f23 50%),
+    linear-gradient(#289f23 42%, #aaffac 42%);
+  color: #289f23;
+  border-color: #289f23;
+  background-color: linear-gradient(#289f23 42%, #aaffac 42%);
+}
+
+.filters{
+  display: flex;
+  align-items: center;
+  margin-top: 9%;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  color:#39971c;
+}
+.offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.offer {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+}
+.shop {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  border:none;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: #ffcd3fde;
+  text-decoration: none;
+  padding: 10px;
+  color: #225a10
+}
+.shop:hover {
+  color: #182b12;
+  text-decoration: none;
+ 
+}
+.baner{
+  border-radius: 42px;
+}

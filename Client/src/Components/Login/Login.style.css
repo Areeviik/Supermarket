@@ -1,0 +1,135 @@
+.invalid {
+  margin-top: -10px;
+  margin-left: 120px;
+  color: red;
+}
+.profileImg {
+  margin-left: 100px;
+  width: 192px;
+  height: 192px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+.head {
+  display: flex;
+  align-items: center;
+  background-color: rgb(133 209 65 / 28%);
+}
+.background {
+  position: absolute;
+  width: 1001px;
+  margin-left: 450px;
+  height: 692px;
+  margin-top: 25px;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+.main {
+  background-color: transparent;
+  width: 400px;
+  height: 700px;
+  margin-top: 170px;
+  margin-bottom: 50px;
+  margin-left: 505px;
+  z-index: 2;
+}
+
+.sign {
+  padding-top: 0px;
+  color: #3b663d;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  border-bottom: none;
+}
+
+.un {
+  width: 76%;
+  color: rgb(8, 36, 15);
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: rgb(133 209 65 / 27%);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 20px;
+  margin-left: 46px;
+  text-align: center;
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+.username {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #204313;
+  font-size: 20px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  color: #204313;
+  font-size: 20px;
+}
+
+.pass {
+  width: 76%;
+  color: rgb(8, 36, 15);
+  font-size: 20px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  letter-spacing: 1px;
+  background-color:rgb(133 209 65 / 27%);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 20px;
+  margin-left: 46px;
+  text-align: center;
+
+}
+
+.un:focus,
+.pass:focus {
+  border: 2px solid rgba(182, 179, 15, 0.555) !important;
+}
+
+.submitL {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #225a10;
+  background: #ffcd3fde;
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  margin-left: 32%;
+  margin-top: 12px;
+  font-size: 25px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.submitL:hover{
+  color:#204313
+}
+.alert{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#ff0000;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-size: 15px;
+}

@@ -1,0 +1,65 @@
+.buttonclass {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+
+.buttonclass:hover {
+  background-color: #3e8e41
+}
+
+.buttonclass:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+.maindivclass {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-left: 27%;
+  margin-right: 22%;
+  margin-top: 10%;
+  margin-bottom: 161px;
+  background-color: rgba(207, 255, 194, 0.5);
+  color: rgb(5, 5, 5);
+  border-radius: 20px;
+}
+.ProdDetcount {
+  color: rgb(52, 142, 29);
+  font-size: 22px;
+}
+.ProdDeths {
+  color: rgb(7, 7, 7);
+  margin-top: 10px;
+}
+.ProdDetdescription {
+  color: rgb(41, 83, 93);
+  margin-top: 3%;
+  font-size: 19px;
+  /* font-weight: 300; */
+}
+.ProdDetrigth {
+  margin-top: 10px;
+  margin-right: 6%;
+  margin-bottom: 10px;
+  
+}
+.imageClass{
+  object-fit: contain;
+  width: 70%;
+  height: 70%;
+  margin-top: 14%;
+}
+.imageDiv{
+  height: 70%;
+  justify-content: center;
+}
